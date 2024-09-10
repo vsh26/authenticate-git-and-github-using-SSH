@@ -26,7 +26,8 @@ If you don’t already have an SSH key, generate one using either the Ed25519 or
      OR
    * Press Enter to accept the default location (`~/.ssh/id_ed25519` or `~/.ssh/id_rsa`).
      
-5. Set a passphrase (optional but recommended).<br>
+5. Set a passphrase (optional but recommended).
+   
    (It is a password-like string that you can set for your SSH key. It encrypts your private key file, so even if someone gains access to the file, they would still need the passphrase to use it.  You will need to enter a passphrase each time you use the key.)
 
 **Step 2: Add the SSH Key to the SSH Agent**
@@ -153,4 +154,4 @@ To avoid manually starting the SSH agent every time you open a WSL terminal, you
 
 **Step 7: Using Git with SSH**
 
-Now that SSH is set up, you can perform all your Git operations (clone, pull, push, etc.) securely without needing to enter your GitHub password.
+   Now that SSH is set up, you can perform all your Git operations (clone, pull, push, etc.) securely without needing to enter your GitHub password.
