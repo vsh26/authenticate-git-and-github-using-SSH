@@ -1,4 +1,9 @@
 # Authenticate Git and GitHub Using SSH
+SSH (Secure Shell) helps computers talk to each other safely, even over unsafe networks, by creating a protected connection. <br><br>
+When you use SSH with GitHub, you don’t have to type your username and password every time you push code. Instead, you set up something called SSH keys—one on your computer and the other on GitHub—to make logging in automatic and secure.
+<br><br>
+Read this article, [Mastering SSH: Secure Remote Access with Keys and Configurations](https://controlplusblog.hashnode.dev/mastering-ssh-secure-remote-access-with-keys-and-configurations), to learn more about SSH.
+
 ## On Linux, MacOS or WSL
 **Step 1: Generate a New SSH Key (If you don't have one)**
 If you don’t already have an SSH key, generate one using either the Ed25519 or RSA algorithm. 
@@ -93,7 +98,7 @@ To avoid manually starting the SSH agent every time you open a WSL terminal, you
    OR
 
    ```
-   source ~/.bashrc
+   source ~/.zshrc
    ```
 
    
@@ -155,3 +160,20 @@ To avoid manually starting the SSH agent every time you open a WSL terminal, you
 **Step 7: Using Git with SSH**
 
    Now that SSH is set up, you can perform all your Git operations (clone, pull, push, etc.) securely without needing to enter your GitHub password.
+
+## 📬 Connect with Me  
+  
+<div align="center">
+
+[![X](https://img.shields.io/badge/X-%23000000.svg?logo=X&logoColor=white)](https://twitter.com/VishalKapgate)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white)](mailto:vishaldk26@gmail.com)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://linkedin.com/in/vishalkapgate)
+[![Peerlist](https://img.shields.io/badge/-Peerlist-00AA45?style=flat&logo=peerlist&logoColor=white)](https://peerlist.io/vishalkapgate)
+
+</div>
+
+## 🤝 Contributing
+Contributions are welcome!  
+
+- Found an error? Let me know (even spelling mistakes count! 📝).  
+- Have useful learning notes? Feel free to fork & enhance this repository!
